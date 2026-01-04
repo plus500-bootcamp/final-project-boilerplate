@@ -4,6 +4,8 @@ A minimal boilerplate for building Vue 2.7 applications with TypeScript and Comp
 
 ## 🚀 Quick Start
 
+INSTRUCTIONS: https://docs.google.com/document/d/1fPU2sX5o_5H9t1V4PUwyOinV26TJB66SW8FJQAuAozM/edit?usp=sharing
+
 ### Prerequisites
 
 - Node.js (v14 or higher)
@@ -70,6 +72,7 @@ Root component of the application. Uses Composition API with `<script setup>`.
 ### src/components/ExampleComponent.vue
 
 Example component demonstrating:
+
 - Props with TypeScript interfaces
 - Emits with type definitions
 - Reactive state with `ref`
@@ -144,6 +147,7 @@ const emit = defineEmits<{
 ## 🔍 TypeScript Configuration
 
 The `tsconfig.json` is configured for Vue 2.7 development:
+
 - Target: ES2015
 - Module: ESNext
 - Strict mode: disabled (can be enabled for stricter type checking)
@@ -152,6 +156,7 @@ The `tsconfig.json` is configured for Vue 2.7 development:
 ## 🌐 Webpack Configuration
 
 Webpack is configured to:
+
 - Bundle TypeScript and Vue files
 - Handle CSS with style-loader
 - Provide development server with hot reload
@@ -178,6 +183,7 @@ Webpack is configured to:
 ### "Cannot find module 'vue'" error
 
 After running `npm install`, restart your IDE's TypeScript server:
+
 - VS Code: Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) → "TypeScript: Restart TS Server"
 
 ### Hot reload not working
